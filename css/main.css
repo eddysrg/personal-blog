@@ -81,29 +81,33 @@ nav .profile-link a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
 }
 
-.main-title h1 {
+h1 {
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 6rem;
   color: white;
-  text-align: center;
-  margin-bottom: 150px;
 }
 
-.main-title h2 {
+h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 3rem;
   color: white;
   text-align: center;
+  align-self: flex-end;
 }
 
-.main-button button {
+.button-shido {
+  justify-self: center;
+}
+
+.button-shido button {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 2rem;
@@ -113,5 +117,4 @@ nav .profile-link a {
   color: white;
   border: none;
   border-radius: 13px;
-  margin-top: 20px;
 }
