@@ -12,6 +12,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.home-body {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -95,7 +98,7 @@ nav .profile-link a {
   justify-content: center;
 }
 
-h1 {
+.main-contain h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -103,7 +106,7 @@ h1 {
   color: white;
 }
 
-h2 {
+.main-contain h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 3rem;
@@ -129,4 +132,55 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 2rem;
+}
+
+.blogs-main {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+}
+
+.blogs-news-container {
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+}
+
+.blogs-main-news {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr auto;
+}
+
+.blogs-main-news h3 {
+  font-size: 2rem;
+}
+
+.blogs-news-container__img {
+  grid-column: 1;
+}
+
+.blogs-news-container__img img {
+  width: 85%;
+}
+
+.blogs-news-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container h2 {
+  font-size: 2.5rem;
+}
+
+.blogs-news-info-container p {
+  margin-bottom: 35px;
+  font-size: 1.8rem;
+}
+
+.blogs-post-container {
+  padding: 0 50px 40px;
+}
+
+.blogs-post-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
 }
