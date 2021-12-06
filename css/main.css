@@ -151,7 +151,7 @@ nav .profile-link a {
 }
 
 .blogs-main-news h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -170,13 +170,15 @@ nav .profile-link a {
 }
 
 .blogs-news-info-container h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-align: center;
   margin-bottom: 40px;
 }
 
 .blogs-news-info-container p {
   font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 50px;
 }
 
 .blogs-post-container {
@@ -187,4 +189,17 @@ nav .profile-link a {
   border-bottom: 1px solid #cdd2da;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.blogs-button {
+  border: 2px solid #47cfac;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.blogs-button:hover {
+  background-color: #47cfac;
+  color: white;
 }
