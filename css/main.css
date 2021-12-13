@@ -120,6 +120,24 @@ nav .profile-link a {
   align-self: flex-end;
 }
 
+.principal-button {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.principal-button button {
+  background-color: #020a31;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.principal-button button a {
+  color: white;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
 .blogs-main {
   display: grid;
 }
